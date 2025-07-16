@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS Customers (
 );
 
 -- Create the ORDERS Table
-CREATE TABLE IF NOT EXISTS orders (
+CREATE TABLE IF NOT EXISTS Orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_id INT,
     order_date DATE,
